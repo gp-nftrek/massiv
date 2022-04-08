@@ -18,7 +18,7 @@ public class Main {
         }
         System.out.print(massivOne[massivOne.length - 1]);
 
-//
+///
         int[] massivThree = {4, 8, 15, 16, 23, 42};
         for (int i = 0; i < massivThree - 1; i++) ;
         {
