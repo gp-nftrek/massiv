@@ -29,11 +29,13 @@ public class Main {
         System.out.println();
 int i =0;
         int[] massiv = new int[]{1, 2, 3};
-        for (; i < massiv.length-1; i++) {
+        for (; i < massiv.length; i++) {
+            if (massiv[i] % 2 != 0) {
+                massiv[i] = massiv[i] + 1 ;
+            }
 
-            while (i %2 != 0) { massiv[i] = massiv[i]+1; }
+            System.out.print(massiv[i] + ", ");
 
-                System.out.print(massiv[i]+ ", ");
 
             System.out.print(massiv[massiv.length - 1] );
 
